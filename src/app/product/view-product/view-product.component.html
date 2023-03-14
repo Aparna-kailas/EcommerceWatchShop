@@ -1,0 +1,43 @@
+<!-- Product section-->
+<section class="py-5">
+    <div class="container px-4 px-lg-5 my-5">
+        <div class="row gx-4 gx-lg-5 align-items-center">
+            <div class="col-md-6"><img class="card-img-top mb-5 mb-md-0" src="{{productdata.productImage}}" alt="..." /></div>
+            <div class="col-md-6">
+                <!-- <div class="small mb-1">{{productdata.}</div> -->
+                <h6 class="display-5 fw-bolder" style="font-size:xx-large;">{{productdata.productName}}</h6>
+                
+                <div class="fs-5 mb-5">
+                    <span>{{productdata.price}} Rs</span>
+                    <!-- <span>$40.00</span> -->
+                </div>
+              
+               <p>{{productdata.details}}</p>
+               <p>COLOUR : {{productdata.colour}}</p>
+               <p>SIZE : {{productdata.size}}</p>
+              
+              
+                <div class="d-flex">
+                    
+                    <button class="btn btn-dark flex-shrink-0" type="button">
+                        <i class="bi-cart-fill me-1"></i>
+                        <a href="product/edit-product/{{productdata.id}}" style="text-decoration: none; color:rgb(255, 252,252);"> Edit</a>
+                           
+                    </button>
+
+                    <button class="btn btn-dark flex-shrink-0 ms-3" type="button">
+                        <i class="bi-cart-fill me-1"></i>
+                        <a href="product/delete-product/{{productdata.id}}" style="text-decoration: none; color:rgb(255, 252,252);">Delete</a>
+                        
+                    </button>
+
+                    <button class="btn btn-dark flex-shrink-0 ms-3" type="button">
+                        <i class="bi-cart-fill me-1"></i>
+                        <a href="product/add-product/{{productdata.id}}" style="text-decoration: none; color:rgb(255, 252,252);">Add to cart</a>
+                    </button>
+                
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

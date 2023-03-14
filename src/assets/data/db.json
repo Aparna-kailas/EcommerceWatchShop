@@ -1,0 +1,147 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "productName": "Iconic Link Unitone ",
+      "categoryId": 2,
+      "description": "Women's Watch",
+      "colour": "Rose Gold",
+      "price": 19799,
+      "productImage": "https://i.postimg.cc/nz51JLVN/daniel-1.webp",
+      "size": "28mm,32mm",
+      "details": "The Iconic Link Unitone is our first unicolor timepiece that features a seamlessly matching luxurious metal link bracelet and watch dial. Available in polished stainless steel with a vibrant silver finish, refined rose gold or gold plating. This unique addition to the Iconic Link collection makes the Unitone stand out as an undeniably eye-catching timepiece that sets the tone for any occasion."
+    },
+    {
+      "id": 2,
+      "productName": "Petite Melrose ",
+      "categoryId": 2,
+      "description": "Women's Watch",
+      "colour": "Rose Gold",
+      "price": 13399,
+      "productImage": "https://i.postimg.cc/PxhjMtks/daniel-2.webp",
+      "size": "28mm,32mm",
+      "details": "This Petite Melrose features a black dial that accentuates classic elegance while adding a splash of refreshing attitude. This watch has you ready to go from office to rooftop party in the blink of an eye."
+    },
+    {
+      "id": 3,
+      "productName": "Quadro Pressed Melrose",
+      "categoryId": 2,
+      "description": "Women's Watch",
+      "colour": "Rose Gold",
+      "price": 16199,
+      "productImage": "https://i.postimg.cc/9M3G8nxj/daniel-3.webp",
+      "size": "20mm,24mm,26mm,28mm",
+      "details": "The Quadro is our first square dial timepiece. Crafted with polished stainless steel and available in a refined rose gold plating or vibrant silver finish. Choose between the option of a white, black, or green patterned dial and a selection of pressed mesh or pressed leather straps. Elevate your look with a unique edge."
+    },
+    {
+      "id": 4,
+      "productName": "Iconic Link Automatic",
+      "categoryId": 1,
+      "description": "Men's Watch",
+      "colour": "Silver",
+      "price": 32499,
+      "productImage": "https://i.postimg.cc/BQ8nbnSM/danimen-1.webp",
+      "size": "40mm,42mm",
+      "details": "The Iconic Link Automatic is our most advanced timepiece to date. Featuring a self-winding movement, powered by the motion of your wrist. The luminous dial has glow-in-the-dark index markers and hands, a magnified date display and is water-resistant up to 100 meters. Scratch-resistant sapphire crystal on the front and back of the watch, with an exhibition case back that exposes the automatic movement inside. A watch designed to get you where you need to be."
+    },
+    {
+      "id": 5,
+      "productName": "Iconic Motion",
+      "categoryId": 1,
+      "description": "Men's Watch",
+      "colour": "Black",
+      "price": 21199,
+      "productImage": "https://i.postimg.cc/Dz5T59fS/danimen-3.webp",
+      "size": "40mm,42mm",
+      "details": "The Iconic Motion is our first water-resistant timepiece. Featuring an upgraded 10 ATM water-resistant watch head and an all-new strap made from a synthetic rubber called FKM. Available with contrasting rose gold or silver accents that give the timepiece its bold and eye-catching edge. Designed for an active lifestyle, a statement piece that combines style and functionality."
+    },
+    {
+      "id": 6,
+      "productName": "Classic St Mawes",
+      "categoryId": 1,
+      "description": "Men's Watch",
+      "colour": "Brown",
+      "price": "19899",
+      "productImage": "https://i.postimg.cc/4ys2Md8Z/danimen-2.webp",
+      "size": "40mm,42mm",
+      "details": "The Classic St. Mawes, an integral part of the flagship Classic Collection, is a slim timepiece that sits perfectly on your wrist. With a flawlessly round and simple dial, a classy leather band and an elegant casing, you have a timepiece that proves that perfection in engineering not only is a possibility, but a reality."
+    },
+    {
+      "id": 7,
+      "productName": "Elan Ring",
+      "categoryId": 3,
+      "description": "Unisex Ring",
+      "colour": "Rose Gold",
+      "price": 4199,
+      "productImage": "https://i.postimg.cc/R0Y1h3dS/daniring-1.webp",
+      "size": "48,50,52,54,56,58,60",
+      "details": "The Elan Ring, with its beautiful silhouette, is made for both men and women. Designed with elegance in mind and to reflect the captivating appeal of the Elan Bracelet, the Elan Ring is the perfect finishing touch to any outfit."
+    },
+    {
+      "id": 8,
+      "productName": "Classic Bracelet",
+      "categoryId": 3,
+      "description": "Women's Bracelet",
+      "colour": "Rose Gold",
+      "price": 4899,
+      "productImage": "https://i.postimg.cc/DZg25GNF/danibraze-1.webp",
+      "size": "S,L",
+      "details": "The Classic Bracelet was designed to reflect the captivating appeal of our minimalist watches. With its casual yet tasteful allure, the Classic Bracelet is a true celebration of the impeccable craftsmanship behind all of Daniel Wellingtons timeless designs.Suitable for men and women."
+    },
+    {
+      "id": 9,
+      "productName": "Elevation Necklace",
+      "categoryId": 3,
+      "description": "Women's Necklace",
+      "colour": "Rose Gold",
+      "price": 7699,
+      "productImage": "https://i.postimg.cc/P5m0mj9n/danichain-2.webp",
+      "size": "One-size",
+      "details": "A delicate pendant version of the geometric-inspired Elevation ring, laced through a sleek cable chain. An everyday piece that instantly elevates your look to new heights. Crafted with stainless steel, available in a refined rose gold plating or vibrant silver finish."
+    },
+    {
+      "id": 10,
+      "productName": "Petite Ashfield ",
+      "categoryId": 4,
+      "description": "Unisex Strap",
+      "colour": "Black",
+      "price": 4899,
+      "productImage": "https://i.postimg.cc/k4BmNHWN/danistrap-1.webp",
+      "size": "12mm,14mm",
+      "details": "The beautifully crafted matte black mesh strap is soft and lightweight, and ensures the watch sits comfortably on your wrist.This strap fits watches from the Petite Collection. "
+    },
+    {
+      "id": 11,
+      "productName": "Petite St Mawes",
+      "categoryId": 4,
+      "description": "Unisex Strap",
+      "colour": "Brown",
+      "price": 4199,
+      "productImage": "https://i.postimg.cc/xCbZ1VKZ/danistrap-2.webp",
+      "size": "12mm,14mm,16mm",
+      "details": "The elegant Petite St Mawes strap is made from genuine Italian leather.This strap fits watches from the Petite Collection. "
+    },
+    {
+      "id": 12,
+      "productName": "Classic Roselyn",
+      "categoryId": 4,
+      "description": "Unisex Strap",
+      "colour": "Ruby Red",
+      "price": 2799,
+      "productImage": "https://i.postimg.cc/9QrYhtP8/danistrap-3.webp",
+      "size": "18mm,20mm",
+      "details": "Our heritage NATO strap in ruby red with rose gold details.This strap fits watches from the Classic Collection."
+    },
+    {
+      "id": "13",
+      "productName": "Emalie Earrings",
+      "categoryId": "3",
+      "description": "Women's Earring",
+      "colour": "Rosegold & Black",
+      "price": "6399",
+      "productImage": "https://i.postimg.cc/m2QyS5tW/earringdani.webp",
+      "size": "S,M,L",
+      "details": "One glance at the Emalie Earrings in black clearly shows why this is our most requested color combination. The deep, black enamel contrasts beautifully with the glistening metal and highlights the subtle brand signature. Crafted from stainless steel, and thanks to the high-quality plating, the Emalie Earrings could be that accessory you don’t have to (or ever want to) take off."
+    }
+  ]
+}

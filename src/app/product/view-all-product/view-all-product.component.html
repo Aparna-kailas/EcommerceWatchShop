@@ -1,0 +1,118 @@
+
+
+<div class="viewall">
+<li class="nav-item" style="margin-left: 8px;">
+    <form>
+    <input (keyup)="search($event)" [(ngModel)]="searchterm" id="s1" name="se1" type="text" placeholder="search products" style="margin-top: 5px;">
+    <button class="btn btn-dark" style="margin-left: 2px; margin-bottom: 4px;">search</button>
+</form>
+    <li class="nav-item"><a class="nav-link" href="product/add-product" style="margin-left: 10px;">ADD NEW PRODUCT</a></li>
+<li class="nav-item dropdown">
+</li>
+</div>
+
+ 
+ <div class="container" style="margin-left: 850px;margin-bottom:-10px;">
+    <div class="container d-flex">
+        <div class="p-2 ms-3 me-3"> 
+            <a (click)="filter('')">
+                <img class="w-1" src="https://i.postimg.cc/Bn07M0jV/classic-bracelet-ros-Zq-INgn-Ot.webp" alt="" style="height:1px;">
+                <h6 class="a1" >All Products</h6>
+            </a>
+        </div>
+        
+        <div class="p-2 ms-3 me-3">
+            
+        <a (click)="filter(2)">
+            <img class="w-1" src="https://i.postimg.cc/PrvRCHzW/white-2.jpg" alt="" style="height: 1px;">
+        <h6 class="a1">Women's watch</h6>
+        </a>
+        </div>
+        
+        <div class="p-2 ms-3 me-3">
+            <a (click)="filter(1)">
+                <img class="w-1" src="https://i.postimg.cc/PrvRCHzW/white-2.jpg" alt=""style="height: 1px;" >
+            <h6 class="a1">Men's watch</h6>
+            </a>
+        </div>
+        
+        <div class="p-2 ms-3 me-3">
+            <a (click)="filter(3)">
+                <img class="w-1" src="https://i.postimg.cc/PrvRCHzW/white-2.jpg" alt="" style="height: 1px;">
+            <h6 class="a1">Jwellery</h6>
+            </a>
+        </div>
+    <div class="p-2 ms-3 me-3">
+        <a (click)="filter(4)">
+            <img class="w-1" src="https://i.postimg.cc/PrvRCHzW/white-2.jpg" alt="" style="height: 1px;">
+            <h6 class="a1">Straps</h6>
+            </a>
+        </div>
+    </div>
+</div>
+
+    
+   <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+    
+    <div class= text-white style=" background-image: url(https://i.postimg.cc/Vv2JrnXw/welli2.jpg);background-color:rgb(26,26, 30); background-repeat: no-repeat;background-size:contain; height:560px;;"> 
+    <h1 style="font-family: DWFutura,sans-serif; margin-left: 930px;padding-top: 260px; font-size:45px;">COMPLEATE THE LOOK</h1>
+    </div>
+    </div>
+      <div class="carousel-item">
+        <div class= text-black style="background-image: url(https://i.postimg.cc/3wkwq34b/dani223new-2.jpg);background-color:rgb(26,26, 30);background-size:cover; height:560px;">
+            <h1 style="font-family: DWFutura,sans-serif; margin-left: 200px;padding-top:225px; font-size:45px;">JEWELRY </h1>
+            <p style="margin-left: 200px;">IT STARTS WITH THE DETAILS</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class= text-white style="background-image: url(https://i.postimg.cc/Xv6Vs9WX/desk-gifts1-2.jpg);background-color:rgb(26,26, 30);background-size:cover; height:560px;">
+            <h1 style="font-family: DWFutura,sans-serif; margin-left: 200px; padding-top:225px; font-size:45px;">GIFT SETS</h1>
+        <p style="margin-left:194px;">OUR MOST POPULAR SELECTIONS</p>
+            
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+       
+
+        <!-- <div class= text-white style="background-image: url(https://i.postimg.cc/Vv2JrnXw/welli2.jpg);background-color:rgb(26,26, 30); background-repeat: no-repeat;background-size:contain; height:560px;">
+        <h1 style="font-family: DWFutura,sans-serif; margin-left: 930px;padding-top: 260px; font-size:45px;">COMPLEATE THE LOOK</h1>
+        </div> -->
+    
+
+
+ <section class="py-5">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div *ngFor="let i of filterproducts | filter:searchkey:'productName' " class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img class="card-img-top" src="{{i.productImage}}"  alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <p class="fw-bolder">{{i.productName}}</p>
+                            <p>{{i.description}}</p>
+                            <!-- Product price-->
+                            {{i.price}} Rs
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="product/view-product/{{i.id}}">View Product</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

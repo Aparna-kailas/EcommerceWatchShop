@@ -1,0 +1,24 @@
+LAZY LOADING TECHNIQUE
+----------------------
+-> Module creating moduleon
+     ng g moduleName
+
+-> Lazy loaded module creation
+     ng g module moduleName --route moduleName --module rootmoduleName     
+
+ installing command for json server
+ ----------------------------------
+ npm i --save json-server    
+
+women watches -2
+mens 1
+ watch straps -4
+ jwellery-3
+
+Run server
+----------
+npx json-server --watch db.json --port 3000
+
+pipe creating command
+---------------------
+ng g pipe filter
